@@ -2,16 +2,16 @@ git init
 git clone https://github.com/user/repo.git
 git add .
 git commit -m "feat: add navbar"
-git push origin master
-git push (depois do primeiro push nao precisa do 'origin' nem do 'main')
+git push origin main
+git push
 
 git branch (verifica se é master ou main o nome da branch)
 
 git remote add origin https://github.com/seuusuario/nomedorepositorio.git
 
 git remote -v (verifica se foi adicionado correto)
-git status (verifica o status das mudanças feitas pelo[git add .])
----------------------------------------------------------------------------------------
+git status (verifica o status das mudanças feitas pelo[git add .] 
+--------------------------
 passos para clonar um repositório e dar um commit
 cd ~/Desktop/caminho/para/sua/pasta
 git init
@@ -19,3 +19,5 @@ git remote add origin https://github.com/mateusmoraiss/nome-do-repositorio.git
 git add .
 git commit -m "Primeiro commit"
 git push -u origin master (ou main)
+
+git push --force (push forçado pra sobrescrever o github caso tenha alteracoes nao atualizadas na pasta)

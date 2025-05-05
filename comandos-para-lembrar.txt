@@ -2,7 +2,7 @@ git init
 git clone https://github.com/user/repo.git
 git add .
 git commit -m "feat: add navbar"
-git push origin main
+git push origin master
 git push (depois do primeiro push nao precisa do 'origin' nem do 'main')
 
 git branch (verifica se é master ou main o nome da branch)

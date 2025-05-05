@@ -1,0 +1,1 @@
+pastinha simples pra lembrar dos principais comandos git
